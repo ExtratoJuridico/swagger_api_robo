@@ -8,7 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-#       - uses: actions/checkout@v2
-      - uses: readmeio/rdme@7.2.0
+      - uses: actions/checkout@v2
+      - uses: readmeio/github-readme-sync@v2
+      #- uses: readmeio/rdme@7.2.0
         with:
-          rdme: openapi swagger_api_robo/openapi.yml --key=${{ secrets.README_API_KEY }} --id=${{ secrets.API_DEFINITION_ID}}
+          rdme: openapi api_swagger.json --key=${{ secrets.README_API_KEY }} --id=${{ secrets.API_DEFINITION_ID}}
