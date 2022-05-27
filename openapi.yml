@@ -3896,7 +3896,7 @@ paths:
         - DF
       security:
         - headerAutenticacao: []
-      summary: TJ ANTIGO GO
+      summary: TJ ANTIGO DF
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -3918,7 +3918,7 @@ paths:
         - DF
       security:
         - headerAutenticacao: []
-      summary: TRT PJE GO
+      summary: TRT PJE DF
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -3940,7 +3940,7 @@ paths:
         - DF
       security:
         - headerAutenticacao: []
-      summary: TJ PROJUDI GO
+      summary: TJ PROJUDI DF
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -3962,7 +3962,7 @@ paths:
         - DF
       security:
         - headerAutenticacao: []
-      summary: TJ PJE GO
+      summary: TJ PJE DF
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
@@ -3984,7 +3984,7 @@ paths:
         - DF
       security:
         - headerAutenticacao: []
-      summary: JF PJE GO
+      summary: JF PJE DF
       parameters:
         - $ref: '#/components/parameters/Proxy'
       requestBody:
